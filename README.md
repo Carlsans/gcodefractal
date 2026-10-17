@@ -29,3 +29,10 @@ The G-code uses `M226 P121` (pause for a pen change) and `M117` (LCD message), M
 ## License
 
 [PolyForm Noncommercial 1.0.0](LICENSE). Personal, research and hobby use are allowed; commercial use is not.
+
+## Launch the GUI
+
+Linux: `./run.sh`  
+Windows: `run_win.bat`
+
+The first run creates a `.venv` and installs `requirements-gui.txt`; later runs start immediately.
