@@ -1,0 +1,23 @@
+# huge generated data: images, previews, G-code (hundreds of MB each)
+src/matrixtogcode/images/
+*.gcode
+*.gcode~
+*.gif
+*.png
+!docs/*.png
+*.pt
+*.npy
+# builds and environments
+target/
+venvarch/
+.venv/
+.idea/
+__pycache__/
+# scratch and machine-specific
+src/result*.svg
+src/test.svg
+src/deduplicate/
+src/matrixtogcode/hilbertcurve/*.gcode
+.stfolder/
+.stignore
+.vscode/

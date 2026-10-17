@@ -1,0 +1,7 @@
+torch
+torchvision
+numpy
+Pillow
+PySide6
+# optional: Rust solver
+# cargo (https://rustup.rs)

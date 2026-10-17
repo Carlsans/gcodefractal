@@ -1,0 +1,15 @@
+[package]
+name = "gcode_bounds"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+name = "gcode_bounds"
+# cdylib -> shared library loadable from Python via ctypes
+# rlib   -> lets src/bin/gcode_bounds.rs link the same code for a CLI
+crate-type = ["cdylib", "rlib"]
+
+[profile.release]
+opt-level = 3
+lto = true
+codegen-units = 1

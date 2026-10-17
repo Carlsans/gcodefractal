@@ -1,0 +1,1 @@
+py optimizegcode.py %1
